@@ -10,10 +10,10 @@ export const CreateAdBanner = () => {
             <span className="text-zinc-400 block">Publique um anúncio para encontrar novos players!</span>
           </div>
           <Dialog.Trigger>
-            <button className="px-3 py-4 text-white bg-violet-500 hover:bg-violet-600 rounded flex justify-between items-center gap-3">
+            <a className="px-3 py-4 text-white bg-violet-500 hover:bg-violet-600 rounded flex justify-between items-center gap-3">
                 <MagnifyingGlassPlus size={24} />
                 Publicar anúncio
-          </button>
+          </a>
           </Dialog.Trigger>
           
         </div>
